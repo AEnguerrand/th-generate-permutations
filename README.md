@@ -9,11 +9,11 @@ CMake (>= 3.9)
 ## Build and run
 ### Linux or MacOs
 ```bash
-git clone https://github.com/AEnguerrand/th-securitytest-android.git
-cd th-securitytest-android
+git clone https://github.com/AEnguerrand/th-generate-permutations.git
+cd th-generate-permutations
 mkdir build
 cd build
 cmake ..
 cmake --build .
-./th-securitytest-android
+./th-generate-permutations
 ```
