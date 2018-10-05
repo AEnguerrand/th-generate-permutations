@@ -73,13 +73,11 @@ void thca::generatePermutations::generatorHeaps()
 void thca::generatePermutations::generatorLexicographical()
 {
   generatorDisplayOne();
-  auto stop = false;
-  while (!stop) {
+  while (true) {
       auto backIt = _list.end() - 1;
       while (backIt > _list.begin() && *(backIt - 1) >= *backIt)
 	--backIt;
       if (backIt == _list.begin()) {
-        stop = true;
         break;
       }
       auto backItB = _list.end() - 1;
