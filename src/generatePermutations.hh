@@ -4,21 +4,29 @@
 #include <vector>
 #include <iostream>
 
-class generatePermutations
-{
- private:
-  int			_lenghtList;
-  std::vector<int>	_list;
-  std::vector<int>	_index;
-  long long		_numberPerm;
+namespace thca {
+  class generatePermutations
+  {
+   private:
+    int			_lenghtList;
+    int 		_type;
+    int 		_noPrintAll;
 
- public:
-  generatePermutations(int lenghtList);
 
- public:
-  void generateAll();
-  void displayOne();
+    std::vector<int>	_list;
+    std::vector<int>	_index;
+    long long		_numberPerm;
 
-};
+   public:
+    explicit generatePermutations(int lenghtList, int type = 1, int noPrintAll = 0);
+
+   public:
+    void generateAll();
+   private:
+    void generatorHeaps();
+    void generatorLexicographical();
+    void generatorDisplayOne();
+  };
+}
 
 #endif //TH_SECURITYTEST_ANDROID_GENERATEPERMUTATIONS_HH
