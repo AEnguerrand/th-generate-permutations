@@ -1,4 +1,4 @@
-# th-securitytest-android
+# th-generate-permutations
 Tsinghua project - Generate all permutations
 
 ## Dependencies
