@@ -1,10 +1,13 @@
 # th-generate-permutations
+[![Build Status](https://travis-ci.org/AEnguerrand/th-generate-permutations.svg?branch=master)](https://travis-ci.org/AEnguerrand/th-generate-permutations)
+![CPP](https://img.shields.io/badge/C++-14-blue.svg)
+
 Tsinghua project - Generate all permutations
 
 ## Dependencies
 
-C++ 14 Compiler
-CMake (>= 3.9)
+- C++ 14 Compiler
+- CMake (>= 3.9)
 
 ## Build and run
 ### Linux or MacOs
