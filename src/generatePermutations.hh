@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <iostream>
+#include <algorithm>
 
 namespace thca {
   class generatePermutations
