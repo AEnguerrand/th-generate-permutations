@@ -1,11 +1,7 @@
-sudo: required
 language: cpp
-stages:
-  - compile
-  - run
 jobs:
   include:
     - stage: compile
-    script: 'mkdir build && cd build && cmake .. && cmake --build .'
+    script: mkdir build && cd build && cmake .. && cmake --build .
     - stage: run
-    script: 'cd build && ./th-generate-permutations 5'
+    script: cd build && ./th-generate-permutations 5
