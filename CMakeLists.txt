@@ -6,7 +6,7 @@ endif ()
 set(CMAKE_CXX_FLAGS "-Wall -Wextra")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
-cmake_minimum_required(VERSION 3.9)
+cmake_minimum_required(VERSION 3.5)
 set(CMAKE_CXX_STANDARD 14)
 include_directories(src)
 

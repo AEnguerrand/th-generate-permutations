@@ -1,7 +1,2 @@
 language: cpp
-jobs:
-  include:
-    - stage: compile
-      script: mkdir build && cd build && cmake .. && cmake --build .
-    - stage: run
-      script: cd build && ./th-generate-permutations 5
+script: mkdir build && cd build && cmake .. && cmake --build . && ./th-generate-permutations 5
